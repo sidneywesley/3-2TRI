@@ -68,5 +68,8 @@ function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
 }
-
+function aleatório (lista){
+    const posicao= Math.floor(Math.random()* lista.length);
+    return lista 
+}
 mostraPergunta();
